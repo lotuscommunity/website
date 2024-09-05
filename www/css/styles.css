@@ -131,7 +131,6 @@ ul.card-text li {
 
 /*animation de l'opacité */
 .opacity-animate-hidden {
-    /*margin: 75px 75px 75px 75px;*/
     opacity: 0 !important;
     transition: opacity 3s ease-in-out;   
 }
