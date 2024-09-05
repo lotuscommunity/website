@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circle Animation</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    canvas {
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="500" height="500"></canvas>
+
+<script>
+  const canvas = document.getElementById('myCanvas');
+  const c = canvas.getContext('2d');
+
+  const circles = [];
+  const numCircles = 10;
+  
+  // Générer les cercles
+  for (let i = 0; i < numCircles; i++) {
+    circles.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      radius: Math.random() * 20 + 10,
+      growthRate: Math.random() * 2 + 0.5
+    });
+  }
+
+  // Fonction pour dessiner un cercle
+  function drawCircle(circle) {
+    c.beginPath();
+    c.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+    c.strokeStyle = "#335449";
+    c.lineWidth = 2;
+    c.stroke();
+  }
+
+  // Fonction d'animation
+  function animate() {
+    // Effacer le canevas
+    c.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Mettre à jour et dessiner chaque cercle
+    circles.forEach(circle => {
+      circle.radius += circle.growthRate; // Augmenter le rayon
+      drawCircle(circle);
+    });
+
+    // Appeler la fonction d'animation pour la prochaine frame
+    window.requestAnimationFrame(animate);
+  }
+
+  // Démarrer l'animation
+  window.requestAnimationFrame(animate);
+</script>
+
+</body>
+</html>
+
