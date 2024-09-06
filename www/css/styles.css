@@ -125,12 +125,13 @@ canvas{
 
 ul.card-text {
     margin:5px;
-    list-style-image: url('../img/lotus_gold_li.svg');
+    list-style: none;
 }
 
 ul.card-text li {
-    margin:10px;  
-    padding-left: 10px;    
+    background:url('../img/lotus_gold_li.svg') no-repeat 0 3px; 
+    padding-left: 30px;
+    padding-bottom: 10px; 
 }
 
 .border-none {
