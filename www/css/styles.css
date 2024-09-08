@@ -61,7 +61,7 @@
 
 body {
     /*word-break: break-all;*/
-    font-family: 'PlayfairDisplay', sans-serif;  
+    font-family: 'Montserrat', sans-serif;  
     object-fit: fill;
     background-color: #12171a;
     background-image: url('../img/background.jpg');
@@ -82,20 +82,31 @@ canvas{
     height: 100%;
 }
 
+header{
+    font-family: 'PlayfairDisplay', sans-serif; 
+}
+
 h1 {
-     font-family: 'Montserrat', sans-serif; 
+     font-family: 'PlayfairDisplay', sans-serif; 
 }
 
 h2 {
-     font-family: 'Montserrat', sans-serif; 
+     font-family: 'PlayfairDisplay', sans-serif; 
 }
 
+h3 {
+    font-family: 'PlayfairDisplay', sans-serif; 
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* banner-picture */
 
 #banner-picture
 {
-    background-image: url('../img/banner_picture.webp');
+    background-image: url('../img/banner_picture.png');
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
