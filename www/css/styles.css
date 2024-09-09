@@ -67,7 +67,7 @@ body {
     background-image: url('../img/background.jpg');
     background-position: 0% 0%;
     background-repeat: repeat-y;
-    background-size: contain;
+    background-size: auto;
     background-attachment: scroll;
     overflow: visible;    
 }
