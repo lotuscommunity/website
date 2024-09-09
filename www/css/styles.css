@@ -296,3 +296,38 @@ ul.card-text li {
     position: relative;  
 }
 
+/* footer */
+
+.x-div {
+    background-image: url('../img/x.svg');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    width: 48px;
+    height:24px;
+    margin-left: 12px;
+}
+
+.discord-div {
+    background-image: url('../img/discord.svg');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    width: 48px;
+    height:24px;
+}
+
+.medium-div {
+    background-image: url('../img/medium.svg');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    width: 48px;
+    height:24px;
+}
+
+.telegram-div {
+    background-image: url('../img/telegram.svg');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    width: 48px;
+    height:24px;
+}
+
