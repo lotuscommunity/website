@@ -102,6 +102,12 @@ footer{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* navbar */
+
+#div_for_center_menu {
+    width: 162px; /* Pour centrer le menu par rapport a la fenetre on rajoute un div vide de la taille du logo */
+}
+
 /* banner-picture */
 
 #banner-picture
