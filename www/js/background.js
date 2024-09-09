@@ -16,7 +16,7 @@ class firefly
     move()
     {
         this.s += 1;
-        this.a = this.a - Math.random() / 10;
+        this.a = this.a - Math.random() / 20;
     }
   
     show()
@@ -74,8 +74,8 @@ function draw()
         }
     }
         
-    if(f.length < 50){
-        for(let j = f.length; j < 50; j++){
+    if(f.length < 25){
+        for(let j = f.length; j < 25; j++){
             f.push(new firefly());
         }
      }
