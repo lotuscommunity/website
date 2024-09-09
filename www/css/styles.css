@@ -185,6 +185,14 @@ footer{
     color: #edca81 !important;
 }
 
+.text-custom-green {
+    color: #2e9d91 !important;
+}
+
+.text-custom-white {
+    color: #ffffff !important;
+}
+
 .bg-custom-golden {
      background-color: #edca81;
 }
