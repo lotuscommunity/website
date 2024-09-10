@@ -368,7 +368,13 @@ ul.card-text li {
 /* scrolls */
 
 .card-article a {
+    padding: 0;
     display: block;
     height: 100%;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-article img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
