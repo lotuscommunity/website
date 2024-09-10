@@ -37,7 +37,7 @@ class firefly
         c.stroke();
         
         c.beginPath();
-        c.ellipse(this.x,this.y,i, i , 2 * Math.PI, 0, 2 * Math.PI);
+        c.ellipse(this.x,this.y,i * 2, i , 2 * Math.PI, 0, 2 * Math.PI);
         c.lineWidth = 3; // Largeur de la bordure
         opacity = this.a / 4 * 3;
         color = `rgba(${red}, ${green}, ${blue}, ${opacity})`;
@@ -45,7 +45,7 @@ class firefly
         c.stroke();
 
         c.beginPath();
-        c.ellipse(this.x,this.y,i * 2, i * 2 ,  2 * Math.PI, 0, 2 * Math.PI);
+        c.ellipse(this.x,this.y,i * 4, i * 2 ,  2 * Math.PI, 0, 2 * Math.PI);
         c.lineWidth = 2;
         opacity = this.a / 4 * 2;
         color = `rgba(${red}, ${green}, ${blue}, ${opacity})`;
@@ -53,7 +53,7 @@ class firefly
         c.stroke();
         
         c.beginPath();
-        c.ellipse(this.x,this.y, i * 3, i * 3 ,  2*Math.PI, 0, 2*Math.PI);
+        c.ellipse(this.x,this.y, i * 8, i * 4 ,  2*Math.PI, 0, 2*Math.PI);
         c.lineWidth = 1;
         opacity = this.a / 4 * 1;
         color = `rgba(${red}, ${green}, ${blue}, ${opacity})`;
