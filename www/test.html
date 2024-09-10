@@ -1,173 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lotus</title>
-	<link href="third-party/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/lotus_network.svg" type="image/x-icon">
+    <title>Articles de Starbucks sur Medium</title>
 </head>
 <body>
+    <h1>Articles de Starbucks sur Medium</h1>
+    <div id="medium-articles"></div>
 
-	<header>
-	
-         
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
-            <img src="img/lotus_network.svg" width="50px">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="navbarCollapse" style="">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                  <li class="nav-item"><a class="nav-link text-custom-golden" href="#">Growth Map</a></li>
-                  <li class="nav-item"><a class="nav-link text-custom-golden" href="#">Explorer</a></li>
-                  <li class="nav-item"><a class="nav-link text-custom-golden" href="#">Updates</a></li>
-                  <li class="nav-item"><a class="nav-link text-custom-golden" href="#">Community</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>              
-                            
-	</header>
-
-	<main>
-     
-        <div id="main-container-fluid" class="container-fluid">   
-            <canvas id="canvas"></canvas>  
-            
-            <div class="container-fluid">          
-                <div class="spacer">
-                </div>
-            </div>
-                         
-
-            <div class="container-fluid">         
-                <div class="card-group">  
-                    <div class="card mx-0 my-5 mx-sm-1 mx-md-2 mx-lg-3 mx-xl-4 mx-xxl-5 rounded opacity-animate-hidden border-none">
-                        <div class="card-body text-center">
-                             <img src="img/muted_lotus.png" width="50%">
-                        </div>
-                    </div> 
-                    <div class="card mx-0 my-5 mx-sm-1 mx-md-2 mx-lg-3 mx-xl-4 mx-xxl-5 rounded opacity-animate-hidden border-none">
-                        <div class="card-body text-center">
-                            <img src="img/temple_drawing.png" width="50%" >
-                        </div>
-                    </div>  
-                    <div class="card mx-0 my-5 mx-sm-1 mx-md-2 mx-lg-3 mx-xl-4 mx-xxl-5 rounded opacity-animate-hidden border-none">
-                        <div class="card-body text-center">
-                            <img src="img/on_a_boat.png" width="50%" >
-                        </div>                    
-                    </div>
-                </div>
-            </div>        
-
-          
-            <!-- Germination -->
-            <div class="container-fluid">         
-                <div class="card-group">                 
-                    <div class="card m-1 m-sm-1 m-md-2 m-lg-3 m-xl-4 m-xl-5 mx-xxl-5rounded opacity-animate-hidden border-none">
-                        <div class="card-body">
-                            <h1 class="card-title text-custom-raspberry text-center">Germination</h1>
-                            <p class="card-text text-custom-golden text-center">
-                            </p>
-                        </div>
-                    </div>   
-                    
-                </div>
-            </div>
-            
-            <div class="container-fluid">        
-                <div class="card-group">       
-                    <div class="card mx-0 my-5 mx-sm-1 mx-md-2 mx-lg-3 mx-xl-4 mx-xxl-5 rounded left-right-animate-div left-hidden">
-                        <div class="card-body">
-                            <h2 class="card-title text-custom-raspberry">Planning and Organization</h2>
-                            <ul class="card-text text-custom-golden">
-                                <li>Finalize project vision, mission, and core values</li>
-                                <li>Establish governance structure and decision-making processes</li>
-                                <li>Develop detailed technical and community engagement plans</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="card mx-0 my-5 mx-sm-1 mx-md-2 mx-lg-3 mx-xl-4 mx-xxl-5  rounded right-left-animate-div right-hidden">
-                        <div class="card-body">
-                            <h2 class="card-title text-custom-raspberry">Community Building</h2>
-                            <ul class="card-text text-custom-golden">
-                                <li>Launch community platforms (Discord, forums, social, media)</li>
-                                <li>Start community outreach and engagement activities</li>
-                                <li>Begin regular updates and open discussions with the community</li>
-                            </ul>
-                        </div>    
-                    </div>
-                                           
-                </div>
-            </div>
-            
-            <div class="container-fluid">         
-                <div class="card-group">
-                    <div class="card mx-0 my-5 mx-sm-1 mx-md-2 mx-lg-3 mx-xl-4 mx-xxl-5 rounded left-right-animate-div left-hidden">
-                        <div class="card-body">
-                            <h5 class="card-title text-custom-raspberry">Technical Setup</h2>
-                            <ul class="card-text text-custom-golden">
-                                <li>Fork OpenLibra and set up initial development environment</li>
-                                <li>Assemble core development team and assign roles</li>
-                                <li>Begin development of key features and improvement</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="card mx-0 my-5 mx-sm-1 mx-md-2 mx-lg-3 mx-xl-4 mx-xxl-5 rounded right-left-animate-div right-hidden">
-                        <div class="card-body">
-                            <h5 class="card-title text-custom-raspberry">Alpha Release</h2>
-                            <ul class="card-text text-custom-golden">
-                                <li>Release the alpha version of the blockchain for internal testing</li>
-                                <li>Collect feedback from developers and early adopters</li>
-                                <li>Iterate on feedback and make necessary improvements</li>
-                            </ul>
-                        </div>    
-                    </div>
-                </div>
-            </div>
-    
-        </div>
-        
-	</main>
-	
-    <footer class="bg-dark text-white py-4 mt-auto">
-        <div class="container">
-            <div class="row">
-              <div class="col-md-4">
-                <h2>About Us</h2>
-                <p>Lotus Network is an Aptos-compatible blockchain, offering smart contracts and a clear regulatory footprint.</p>
-              </div>
-              <div class="col-md-4">
-                <h2>Liens utiles</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#" class="text-white">Accueil</a></li>
-                  <li><a href="#" class="text-white">Updates</a></li>
-                  <li><a href="#" class="text-white">Community</a></li>
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <h2>Suivez-nous</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#" class="text-white">Twitter</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="text-center mt-3">
-              <p>&copy; 2024 Lotus Network.All right reserved.</p>
-            </div>
-        </div>
-    </footer>
-    
-	<script src="third-party/jquery-3.7.1/jquery-3.7.1.min.js"></script> 
-	<script src="third-party/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
- 
-    <script src="js/script.js"></script>
-    <script src="js/background.js"></script>
+    <script src="script.js"></script>
 </body>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const rssUrl = 'https://medium.com/feed/@Starbucks'; // URL du flux RSS Medium de Starbucks
+
+    // Utiliser un service proxy pour contourner les restrictions CORS
+    const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}`;
+
+    // Récupérer les données du flux Medium et les afficher
+    fetch(proxyUrl)
+        .then(response => response.json())
+        .then(data => {
+            const articlesDiv = document.getElementById('medium-articles');
+
+            data.items.forEach(item => {
+                console.log(item);
+                const article = document.createElement('div');
+                article.style.marginBottom = "20px";
+
+                article.innerHTML = `
+                    <h2><a href="${item.link}" target="_blank">${item.title}</a></h2>
+                    <p>${item.description}...</p>
+                    <p><strong>Publié le :</strong> ${new Date(item.pubDate).toLocaleDateString()}</p>
+                `;
+                articlesDiv.appendChild(article);
+            });
+        })
+        .catch(error => {
+            console.error('Erreur lors de la récupération des articles Medium :', error);
+        });
+});
+
+</script>
+
 </html>
