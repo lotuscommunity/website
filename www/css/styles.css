@@ -225,6 +225,8 @@ footer{
 #main-container-fluid {
 }
 
+/* card */
+
 .card {
     /*border: solid 1px #ecdce9 !important;*/
     border: none;
@@ -235,6 +237,19 @@ footer{
     max-width: 1296px;
     margin-left:auto;
     margin-right:auto;
+}
+
+.card-body a {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(92,79,50,0.5);
+    padding: 15px;
+    margin: 15px auto 0 auto;
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    background-color: rgba(92,79,50,0.6);
 }
 
 ul.card-text {
