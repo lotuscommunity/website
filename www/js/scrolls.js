@@ -12,7 +12,7 @@ function getArticleShortStr(index, items)
         result += `<div class="card-body text-center">`; 
             result += `<a href="${link_url}">`;        
             result += `<img src = "${imgSrc}" alt="${item.title}" width="100%" />`;            
-            result += `<h5 class="m-4 text-custom-gold text-start">${item.pubDate}</h5>`;
+            result += `<h5 class="m-4 text-custom-golden text-start">${item.pubDate}</h5>`;
             result += `<h2 class="m-4 text-custom-green text-start">${item.title}</h2>`;
             result += `<h4 class="m-4 text-custom-white text-start">${h4Src}</h4>`;
             result += `</a>`;
@@ -23,7 +23,7 @@ function getArticleShortStr(index, items)
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    const rssUrl = 'https://medium.com/feed/@Starbucks'; // URL du flux RSS Medium de Starbucks    
+    const rssUrl = 'https://medium.com/feed/@aptoslabs'; // URL du flux RSS Medium de Starbucks    
     const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}`; // Utiliser un service proxy pour contourner les restrictions CORS
 
     // Récupérer les données du flux Medium et les afficher
