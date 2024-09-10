@@ -203,6 +203,13 @@ footer{
      background-color: #edca81;
 }
 
+/* blur image */
+
+.blur-image-and-radius {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}    
+
 #main-container-fluid {
 }
 
