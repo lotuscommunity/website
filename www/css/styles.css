@@ -109,6 +109,11 @@ footer{
     width: 162px; /* Pour centrer le menu par rapport a la fenetre on rajoute un div vide de la taille du logo */
 }
 
+.nav-link:hover {
+    border-radius: 10px;
+    background-color: rgba(92,79,50,0.5);
+}
+
 /* banner-picture */
 
 #banner-picture
