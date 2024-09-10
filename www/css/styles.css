@@ -99,6 +99,14 @@ h3 {
     font-family: 'PlayfairDisplay', sans-serif; 
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif; 
+}
+
 footer{
     font-family: 'Montserrat', sans-serif;
 }
@@ -372,6 +380,7 @@ ul.card-text li {
     display: block;
     height: 100%;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    background-color: #28242c;
 }
 
 .card-article img {
