@@ -12,9 +12,9 @@ function getArticleShortStr(index, items)
         result += `<div class="card-body text-center">`; 
             result += `<a href="${link_url}">`;        
             result += `<img src = "${imgSrc}" alt="${item.title}" width="100%" />`;            
-            result += `<h5 class="ms-2 text-custom-green text-start">${item.pubDate}</h5>`;
-            result += `<h2 class="ms-2 text-custom-green text-start">${item.title}</h2>`;
-            result += `<h4 class="ms-2 text-custom-white text-start">${h4Src}</h4>`;
+            result += `<h5 class="m-4 text-custom-gold text-start">${item.pubDate}</h5>`;
+            result += `<h2 class="m-4 text-custom-green text-start">${item.title}</h2>`;
+            result += `<h4 class="m-4 text-custom-white text-start">${h4Src}</h4>`;
             result += `</a>`;
         result += `</div>`;
     result += `</div>`;
