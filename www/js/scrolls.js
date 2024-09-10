@@ -13,8 +13,8 @@ function getArticleShortStr(index, items)
             result += `<a href="${link_url}">`;        
             result += `<img src = "${imgSrc}" alt="${item.title}" width="100%" />`;            
             result += `<h5 class="m-4 text-custom-golden text-start">${item.pubDate}</h5>`;
-            result += `<h2 class="m-4 text-custom-green text-start">${item.title}</h2>`;
-            result += `<h4 class="m-4 text-custom-white text-start">${h4Src}</h4>`;
+            result += `<h5 class="m-4 text-custom-green text-start">${item.title}</h2>`;
+            result += `<h5 class="m-4 text-custom-white text-start">${h4Src}</h4>`;
             result += `</a>`;
         result += `</div>`;
     result += `</div>`;

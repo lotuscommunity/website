@@ -87,27 +87,11 @@ header{
     font-family: 'PlayfairDisplay', sans-serif; 
 }
 
-h1 {
-     font-family: 'PlayfairDisplay', sans-serif; 
-}
-
-h2 {
-     font-family: 'PlayfairDisplay', sans-serif; 
-}
-
-h3 {
+.display-font {
     font-family: 'PlayfairDisplay', sans-serif; 
 }
 
-h4 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-h5 {
-    font-family: 'Montserrat', sans-serif; 
-}
-
-footer{
+.montserrat-font {
     font-family: 'Montserrat', sans-serif;
 }
 
