@@ -216,6 +216,12 @@ nav {
     border-radius: 50px;
 }    
 
+.blur-image-and-radius-circle {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    border-radius: 50%;
+} 
+
 #main-container-fluid {
 }
 
