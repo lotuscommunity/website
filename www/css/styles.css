@@ -205,6 +205,10 @@ header{
      background-color: #edca81;
 }
 
+.max-width-300 {
+    max-width: 300px !important;
+}
+
 /* blur image */
 
 .blur-image-and-radius {
