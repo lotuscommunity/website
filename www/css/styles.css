@@ -28,36 +28,6 @@
     font-style: italic;
 }
 
-/* font family Playfair_Display*/
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
 
 body {    
     object-fit: fill;
@@ -83,10 +53,6 @@ canvas{
 
 header{
     font-family: 'Montserrat', sans-serif; 
-}
-
-.display-font {
-    font-family: 'PlayfairDisplay', sans-serif; 
 }
 
 .montserrat-font {
