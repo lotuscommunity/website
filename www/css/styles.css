@@ -61,11 +61,6 @@ header{
 
 /* navbar */
 
-.navbar
-{
-    background-color: rgb(33,37,41, 0.3) !important;
-}
-
 #div_for_center_menu {
     width: 162px; 
 }
@@ -174,11 +169,6 @@ header{
 
 .bg-custom-golden {
      background-color: #edca81;
-}
-
- .bg-banner {
-     background-color: rgb(33,37,41, 0.3);
-     margin-top: 56px;
 }
 
 .max-width-300 {
