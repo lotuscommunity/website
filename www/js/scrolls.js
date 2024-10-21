@@ -22,8 +22,8 @@ function getArticleShortStr(index, items)
     return result;
 }
 
-document.addEventListener('DOMContentLoaded', function() {  
-    const rssUrl = 'https://medium.com/@lotusnetwork.xyz'; // URL du flux RSS Medium de Starbucks    
+document.addEventListener('DOMContentLoaded', function() { 
+    const rssUrl = 'https://medium.com/feed/@lotusnetwork.xyz'; // URL du flux RSS Medium de Starbucks    
     const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}`; // Utiliser un service proxy pour contourner les restrictions CORS
 
     // Récupérer les données du flux Medium et les afficher
