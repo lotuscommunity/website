@@ -10,7 +10,7 @@ function getArticleShortStr(index, items)
   
     result += `<div class="card card-article mx-0 my-5 mx-sm-1 mx-md-2 mx-lg-3 mx-xl-4 mx-xxl-5 rounded border-none">`;
         result += `<div class="card-body text-center">`; 
-            result += `<a href="${link_url}">`;        
+            result += `<a href="${link_url}" target="_blank">`;        
             result += `<img src = "${imgSrc}" alt="${item.title}" width="100%" />`;            
             result += `<h5 class="m-4 text-custom-golden text-start">${item.pubDate}</h5>`;
             result += `<h5 class="m-4 text-custom-green text-start">${item.title}</h2>`;
