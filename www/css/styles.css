@@ -317,12 +317,20 @@ ul.card-text li {
     margin-left: 12px;
 }
 
+.x-div:hover {
+    background-image: url('../img/x-hover.svg');
+}
+
 .discord-div {
     background-image: url('../img/discord.svg');
     background-size: 24px 24px;
     background-repeat: no-repeat;
     width: 48px;
     height:24px;
+}
+
+.discord-div:hover {
+    background-image: url('../img/discord-hover.svg');
 }
 
 .medium-div {
@@ -333,12 +341,20 @@ ul.card-text li {
     height:24px;
 }
 
+.medium-div:hover {
+    background-image: url('../img/medium-hover.svg');
+}
+
 .telegram-div {
     background-image: url('../img/telegram.svg');
     background-size: 24px 24px;
     background-repeat: no-repeat;
     width: 48px;
     height:24px;
+}
+
+.telegram-div:hover {
+    background-image: url('../img/telegram-hover.svg');
 }
 
 .github-div {
@@ -349,6 +365,9 @@ ul.card-text li {
     height:24px;
 }
 
+.github-div:hover {
+    background-image: url('../img/github-hover.svg');
+}
 /* scrolls */
 
 .card-article a {
@@ -367,4 +386,9 @@ ul.card-text li {
 .card-article img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+footer a:hover
+{
+    color: #2e9d91 !important;  
 }
